@@ -4,7 +4,7 @@ taxicab <- function(x,y){
     for (i in 1:length(x)) {
       absolutes[i] <- abs(x[i]-y[i])
     }
-    return(sum(absolutes))
+    return(sum(absolutes)) 
   }
   else{
     stop("La dimension de los vectores no es la misma")
