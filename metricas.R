@@ -10,6 +10,4 @@ taxicab <- function(x,y){
     stop("La dimension de los vectores no es la misma")
   }
 }
-}
-
 
